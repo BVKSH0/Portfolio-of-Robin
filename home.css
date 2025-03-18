@@ -1,6 +1,3 @@
-.home-text {
-}
-
 #hero {
   height: 85vh;
   width: 100%;
@@ -22,7 +19,7 @@
 
 #hero h2,
 h1 {
-  color: #088178;
+  color: #fec544;
 }
 
 #hero h2 {
@@ -33,4 +30,52 @@ h1 {
 #hero h1 {
   font-size: 100px;
   padding: 30px 0px 18px 0px;
+}
+
+#hero button {
+  padding: 13px 45px;
+  border-radius: 30px;
+  background-color: #fec544;
+  margin-top: 2rem;
+  border: 0;
+}
+
+#hero button a {
+  color: #333;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+#hero .icons {
+  /* position: absolute;
+  bottom: 10%;
+  right: 30%;
+  border-radius: 0%; */
+  /* background-color: #101624; */
+  display: flex;
+  justify-content: flex-start;
+  /* height: 80px;
+  width: 600px; */
+  padding: 30px 0px;
+  transition: all 0.6s ease;
+}
+
+#hero .icons .icon {
+  font-size: 20px;
+  color: #a9adb8;
+  margin: 0 10px;
+  border: 1px solid #646060;
+  border-radius: 28px;
+  height: 50px;
+  width: 50px;
+  padding: 0 15px 0 12px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: #070d1b;
+  transition: all 0.6s ease;
+}
+
+#hero .icons .icon1 {
+  margin: 0px 10px 0px 0px;
 }

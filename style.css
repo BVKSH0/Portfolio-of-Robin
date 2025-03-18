@@ -90,7 +90,7 @@ button.white {
   align-items: center;
   justify-content: space-between;
   padding: 23px 80px;
-  background-color: rgb(7, 13, 27);
+  background-color: rgb(4, 9, 17);
   border-bottom: 3px solid rgb(184, 161, 161);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   z-index: 999;
@@ -140,7 +140,7 @@ button.white {
 
 #navbar li a:hover,
 #navbar li a.active {
-  color: #088178;
+  color: #fec544;
 }
 
 #navbar li a.active::after,
