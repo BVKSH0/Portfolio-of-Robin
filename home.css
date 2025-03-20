@@ -2,6 +2,8 @@
   /* height: 100vh; */
   width: 100%;
   padding: 18vh 15vh;
+  scroll-margin-top: 8vh;
+
   display: flex;
   /* flex-direction: column; */
   align-items: flex-start;
@@ -100,15 +102,18 @@
 /* About Me */
 
 #about-me {
-  width: 100%;
-  min-height: 500px;
-  padding: 5% 0 10% 0;
+  min-height: 96vh;
+  margin: 0 10rem;
+  /* padding: 5% 0 10% 0; */
+  padding-top: 8vh;
+  scroll-margin-top: 2vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: #070d1b;
   transition: all 0.6s ease;
+  overflow: hidden;
 }
 
 #about-me .title {
@@ -131,7 +136,8 @@
   bottom: 20%;
   left: 50%;
   transform: translate(-50%, 20%);
-  font-size: 2.7rem;
+  font-size: 3.4rem;
+  font-weight: 400;
   color: #fec544;
   padding-bottom: 15px;
 }
@@ -140,10 +146,10 @@
   content: "";
   position: absolute;
   width: 50%;
-  left: 20%;
+  left: 25%;
   bottom: 0;
   height: 2px;
-  color: #fec544;
+  background-color: #fec544;
 }
 
 #about-me .aimg-container-container {

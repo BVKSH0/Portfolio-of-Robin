@@ -54,6 +54,24 @@ p {
   margin: 40px 0;
 }
 
+.section-s {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+/* .title h2::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  bottom: 0;
+  height: 2px;
+  background-color: #fec544;
+} */
+
 .icon {
   width: 20px;
   height: 20px;

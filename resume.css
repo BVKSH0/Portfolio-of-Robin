@@ -1,0 +1,35 @@
+#resume .title {
+  position: relative;
+
+  text-transform: uppercase;
+}
+
+#resume .title h1 {
+  font-size: 6rem;
+  width: 100;
+  letter-spacing: 6px;
+  color: rgba(21, 27, 41, 0.5);
+  text-align: center;
+}
+
+#resume .title h2 {
+  position: absolute;
+  /* top: -20%; */
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  font-size: 3.4rem;
+  font-weight: 400;
+  color: #fec544;
+  padding-bottom: 15px;
+}
+
+#resume .title h2::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  bottom: 0;
+  height: 2px;
+  background-color: #fec544;
+}
