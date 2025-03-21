@@ -8,6 +8,7 @@
   align-items: center;
   flex-direction: column;
   background-color: #070d1b;
+  padding-bottom: 12vh;
 }
 
 #resume .resume {
@@ -16,7 +17,7 @@
   align-items: center;
   width: 100%;
   gap: 8%;
-  padding-top: 130px;
+  padding-top: 12vh;
   color: #fff;
 }
 
@@ -75,6 +76,7 @@
 
 #resume .title {
   position: relative;
+  padding-top: 12vh;
 
   text-transform: uppercase;
 }
@@ -90,7 +92,7 @@
 #resume .title h2 {
   position: absolute;
   /* top: -20%; */
-  bottom: 20%;
+  bottom: 8%;
   left: 50%;
   transform: translate(-50%, 20%);
   font-size: 4rem;
