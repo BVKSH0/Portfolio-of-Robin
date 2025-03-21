@@ -1,3 +1,78 @@
+#resume {
+  min-height: 96vh;
+  margin: 0 10rem;
+  /* padding-top: 8vh; */
+  scroll-margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #070d1b;
+}
+
+#resume .resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 8%;
+  padding-top: 130px;
+  color: #fff;
+}
+
+#resume .resume h2 {
+  font-size: 2.6rem;
+  margin: 12px 0;
+  font-weight: 300;
+}
+
+#resume .resume .experience {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#resume .resume .experience .topics {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px 0;
+  position: relative;
+  padding: 0 0 0 10%;
+  border-left: 1px solid #a9adb8;
+}
+
+#resume .resume .experience .topics div {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2px;
+}
+#resume .resume .experience .topics h3 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #fec544;
+  position: relative;
+}
+#resume .resume .experience .topics h6 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #a9adb8;
+}
+#resume .resume .experience .topics h4 {
+  font-size: 1.6rem;
+  color: #e8d7d7;
+}
+#resume .resume .experience .topics p {
+  color: #a9adb8;
+  line-height: 20px;
+}
+
 #resume .title {
   position: relative;
 
@@ -18,7 +93,7 @@
   bottom: 20%;
   left: 50%;
   transform: translate(-50%, 20%);
-  font-size: 3.4rem;
+  font-size: 4rem;
   font-weight: 400;
   color: #fec544;
   padding-bottom: 15px;
