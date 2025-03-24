@@ -205,6 +205,10 @@
   transition: 0.3s ease-in-out;
 }
 
+#portfolio .portfolio .card img {
+  transition: 0.3s ease-in-out;
+}
+
 #portfolio .portfolio .card:hover .content {
   opacity: 1;
 }
@@ -215,7 +219,7 @@
 
 #portfolio .portfolio .card .content h4,
 #portfolio .portfolio .card .content h3 {
-  color: #070d1b;
+  color: #252c3d;
 }
 
 #portfolio button {

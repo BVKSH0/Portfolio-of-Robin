@@ -129,12 +129,13 @@
   letter-spacing: 6px;
   color: rgba(21, 27, 41, 0.5);
   text-align: center;
+  padding-bottom: 12vh;
 }
 
 #about-me .title h2 {
   position: absolute;
   /* top: -20%; */
-  bottom: 20%;
+  bottom: 75%;
   left: 50%;
   transform: translate(-50%, 20%);
   font-size: 3.4rem;
