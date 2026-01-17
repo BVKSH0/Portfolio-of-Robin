@@ -59,14 +59,6 @@ Open index.html in a browser or serve using any static file server.
 
 ---
 
-## ⚠️ Limitations	🛠️ Possible Improvements
-- Contact form not functional	Connect the contact form to an email service or backend
-- No dynamic content or database	Add a CMS or database for easier project updates
-- No authentication or admin controls	Add an admin panel to update projects or portfolio info
-- Limited interactive animations	Enhance UX with smooth scrolling, hover effects, or JS interactions
-
----
-
 ## ⚠️ Limitations vs 🛠️ Possible Improvements
 
 | ⚠️ Limitations | 🛠️ Possible Improvements |
